@@ -96,7 +96,7 @@ public class ExoPlayerActivity extends AppCompatActivity {
                 mediaItem = new MediaItem.Builder()
                         .setUri(getString(R.string.media_url_mp4))
                         .build();
-
+                break;
             case DASH:
                 // streaming
                 mediaItem = new MediaItem.Builder()
